@@ -4,10 +4,9 @@
 
 Website accessibility
 
-The website accessibility was hard for me to understand as this is a new concept for me.
-I went through the code multiple time to find a solution, and had help from tutors at
-Boise State. The html, css, and javascript, are codded (I think) correctly so their
-shouldn't be an issue with either of them.
+In the beginning the accessibility concepts were confusing. But after reading some articles I got through the basics.
+I finally learned how to use firefox to inspect for accessibility components which helped me to code accessibility into
+my project. I got some help for some of the content that was hard to understand. But it was overall good.
 
 To View / Run:
 Livepreview in CS Code will show you the website on your local computer and itll let you
