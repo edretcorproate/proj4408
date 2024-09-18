@@ -100,11 +100,21 @@
         <p>The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.</p>
         <br><br>
         <label>
-        <audio controls>
-          <source src="audio/bear.mp3" type="audio/mp3">
-          <source src="audio/bear.ogg" type="audio/ogg">
-          <p>It looks like your browser doesn't support HTML5 audio players.</p>
-        </audio>
+        <section class="player">
+          <audio controls class="audio">
+            <source src="audio/bear.mp3" type="audio/mp3">
+            <source src="audio/bear.ogg" type="audio/ogg">
+            <p>It looks like your browser doesn't support HTML5 audio players.</p>
+          </audio>
+
+          <div class="controls">
+            <button class="playpause">Play</button>
+            <button class="stop">Stop</button>
+            <button class="rwd">Rwd</button>
+            <button class="fwd">Fwd</button>
+            <div class="time">00:00</div>
+          </div>
+        </section>
         </label>
 
         <aside>

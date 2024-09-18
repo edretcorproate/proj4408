@@ -8,6 +8,8 @@ In the beginning the accessibility concepts were confusing. But after reading so
 I finally learned how to use firefox to inspect for accessibility components which helped me to code accessibility into
 my project. I got some help for some of the content that was hard to understand. But it was overall good.
 
+FYI Couldn't get audio to be accessible successfully.
+
 To View / Run:
 Livepreview in CS Code will show you the website on your local computer and itll let you
 navigate on it like the real website.
@@ -19,16 +21,6 @@ Not applicable
 https://colorjs.io/docs/contrast
 
 ## Accessibility Lab Answers
-
-* Added <label></label> to "Your name:" and "Your comment:" and around
-"Enter your name" and "Enter your comment" div wrapper replaced with label
-wrapper
-
-* Added <label></label> around audio controls
-
-* Added aria-label="image1"
-* Added aria-label="image2"
-
 Color
 
 1. The text is difficult to read because of the current color scheme. Can you do a test of the current color contrast (text/background), report the results of the test, and then fix it by changing the assigned colors?
@@ -71,7 +63,11 @@ The Audio Player
 
 1. The <audio> player isn't accessible to hearing impaired (deaf) people — can you add some kind of accessible alternative for these users?
 
+"To provide deaf people with access to audio content, you need to create text transcripts. These can either be included on the same page as the audio in some way or included on a separate page and linked to." -Mozilla.org
+
 2. The <audio> player isn't accessible to those using older browsers that don't support HTML audio. How can you allow them to still access the audio?
+
+We do this by creating our own custom controls for the audio that will not only make it keyboard accessible but also support many browsers.
 
 The Forms
 
@@ -81,6 +77,7 @@ Basically you would Add <label></label> around the <input type="search" name="q"
 
 2. The two <input> elements in the comment form have visible text labels, but they are not unambiguously associated with their labels — how do you achieve this? Note that you'll need to update some of the CSS rule as well.
 
+You put the name and comment in a label: <label>Your name:</label> and <label>Your comment:</label>
 
 The Show/Hide Comment Control
 
@@ -95,3 +92,13 @@ The Table
 Other Considerations?
 
 1. Can you list two more ideas for improvements that would make the website more accessible?
+
+Here are some improvements:
+* Added <label></label> to "Your name:" and "Your comment:" and around
+"Enter your name" and "Enter your comment" div wrapper replaced with label
+wrapper
+
+* Added <label></label> around audio controls
+
+* Added aria-label="image1"
+* Added aria-label="image2"
