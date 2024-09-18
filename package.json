@@ -7,8 +7,12 @@
   "author": "Pat von Student",
   "scripts": {
     "lint:html": "htmlhint"
-    },
+  },
   "devDependencies": {
     "qunit": "^2.21.1"
+  },
+  "dependencies": {
+    "colorjs.io": "^0.5.2",
+    "contrast-js": "^0.0.3"
   }
 }

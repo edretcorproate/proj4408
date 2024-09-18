@@ -7,5 +7,6 @@ QUnit.module('hello', function() {
         assert.equal(result, 'hello');
     });
 
+    // My tests and codes
 
 });
